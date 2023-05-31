@@ -5,36 +5,36 @@
     <title>Client Area - KOUROSHEZ</title>
     <link rel="stylesheet" href="./style/main.css">
 </head>
-<body>
+<body class="dark:bg-gray-500">
 
 <!--    overlay layout      -->
-<div class="hidden w-full h-full fixed bg-gray-800 bg-opacity-50" id="overlayLayout"></div>
+<div class="fixed hidden h-full w-full bg-gray-800 bg-opacity-50" id="overlayLayout"></div>
 <!--    end overlay layout      -->
 
 <!--    sidebar         -->
-<div id="sidebar" class=" hidden fixed h-full md:flex">
-    <div class="bg-indigo-700 overflow-y-auto text-gray-300 h-full w-56 p-5">
+<div id="sidebar" class="fixed hidden h-full md:flex">
+    <div class="h-full w-56 overflow-y-auto bg-indigo-700 p-5 text-gray-300 dark:bg-gray-800">
         <!--        sidebar close icon      -->
-        <button class="md:hidden absolute right-2 top-2" id="sideBarCloseIcon">
+        <button class="absolute top-2 right-2 md:hidden" id="sideBarCloseIcon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                 stroke="currentColor" class="w-6 h-6">
+                 stroke="currentColor" class="h-6 w-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
             </svg>
         </button>
         <!--        end side bar close icon     -->
         <!--       logo          -->
         <div class="mb-10 flex items-center">
-            <img src="images/mark.svg" alt="" class=" pr-2 h-10 w-10 text-white">
+            <img src="images/mark.svg" alt="" class="h-10 w-10 pr-2 text-white">
             <span class="font-bold text-white">KOUROSHEZ</span>
         </div>
         <!--        logo        -->
         <!--    sidebar  -->
         <nav>
 
-            <a href="#" class="flex bg-indigo-900 rounded-lg p-2 space-x-2 ">
+            <a href="#" class="flex rounded-lg bg-indigo-900 p-2 space-x-2">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         stroke="currentColor" class="w-6 h-6">
+                         stroke="currentColor" class="h-6 w-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/>
                     </svg>
@@ -44,7 +44,7 @@
             <a href="#" class="flex p-2 space-x-2">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         stroke="currentColor" class="w-6 h-6">
+                         stroke="currentColor" class="h-6 w-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
                     </svg>
@@ -55,7 +55,7 @@
             <a href="#" class="flex p-2 space-x-2">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         stroke="currentColor" class="w-6 h-6">
+                         stroke="currentColor" class="h-6 w-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"/>
                     </svg>
@@ -66,7 +66,7 @@
             <a href="#" class="flex p-2 space-x-2">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         stroke="currentColor" class="w-6 h-6">
+                         stroke="currentColor" class="h-6 w-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"/>
                     </svg>
@@ -77,7 +77,7 @@
             <a href="#" class="flex p-2 space-x-2">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         stroke="currentColor" class="w-6 h-6">
+                         stroke="currentColor" class="h-6 w-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082"/>
                     </svg>
@@ -93,54 +93,60 @@
 <!--    client area    -->
 <div class="flex flex-col md:pl-56">
     <!--    nabvar    -->
-    <div class="flex justify-between shadow h-14 items-center px-4">
+    <div class="flex h-14 items-center justify-between px-4 shadow dark:bg-gray-700">
         <!--        sidebar open icon       -->
-        <button class="text-gray-600 mr-2 md:hidden" id="sideBarOpenIcon">
+        <button class="mr-2 text-gray-600 dark:text-gray-50 md:hidden" id="sideBarOpenIcon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                 stroke="currentColor" class="w-6 h-6">
+                 stroke="currentColor" class="h-6 w-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"/>
             </svg>
         </button>
         <!--        close sidebar open icon       -->
 
         <div class="w-full">
-            <form action="" class="flex  w-full items-center">
+            <form action="" class="flex w-full items-center">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         stroke="currentColor" class="w-6 h-6 text-gray-600">
+                         stroke="currentColor" class="h-6 w-6 text-gray-600 dark:text-gray-50">
                         <path stroke-linecap="round" stroke-linejoin="round"
                               d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
                     </svg>
                 </div>
-                <input class="w-full h-12 outline-none px-2" type="text" placeholder="Search whatever do you want...">
+                <input class="h-12 w-full px-2 outline-none dark:bg-gray-700 dark:text-gray-50" type="text" placeholder="Search whatever do you want...">
             </form>
         </div>
         <div class="flex items-center">
+            <div class="px-2" id="darkModeButton">
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 cursor-pointer text-gray-600  hover:text-gray-900 dark:text-gray-50">
+                    <path id="darkModeSwitchIcon" stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg>
+
+            </div>
             <div class="px-2">
                 <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                     stroke="currentColor" class="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer">
+                     stroke="currentColor" class="h-6 w-6 cursor-pointer text-gray-600 hover:text-gray-900 dark:text-gray-50">
                     <path stroke-linecap="round" stroke-linejoin="round"
                           d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"/>
                 </svg>
             </div>
             <div class="flex-shrink-0">
-                <img src="images/kourosh.jpg" alt="" class="rounded-full h-8 w-8">
+                <img src="images/kourosh.jpg" alt="" class="h-8 w-8 rounded-full">
             </div>
 
             <div class="hidden" id="userDropDownMenu">
-                <svg  class="w-6 h-6 fixed  shadow-lg top-9 right-2 md:right-5 text-indigo-700 fill-indigo-700" viewBox="0 0 32 32"
+                <svg  class="fixed top-9 right-2 h-6 w-6 fill-indigo-700 shadow-lg dark:fill-gray-800 md:right-5" viewBox="0 0 32 32"
                       xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 20.695l7.997-11.39L24 20.695z"/>
                 </svg>
 
-                <div class="w-40 fixed bg-indigo-700 top-12 right-1 md:right-4 rounded-lg  shadow-lg py-2">
+                <div class="fixed top-12 right-1 w-40 rounded-lg bg-indigo-700 py-2 shadow-lg dark:bg-gray-800 md:right-4">
 
-                    <ul class="flex flex-col space-y-2 mt-2 text-gray-200 ">
+                    <ul class="mt-2 flex flex-col text-gray-200 space-y-2">
                         <li class="ml-2">sigined in as <b>kouroshez</b></li>
-                        <li class="border-t border-indigo-300 w-full"></li>
+                        <li class="w-full border-t border-indigo-300"></li>
                         <li class="ml-2" ><a href="#">Profile</a></li>
                         <li class="ml-2"><a href="#">Servers</a></li>
-                        <li class="border-t border-indigo-300 w-full"></li>
+                        <li class="w-full border-t border-indigo-300"></li>
                         <li class="ml-2"><a class="mt-1 flex items-center" href="#">Logout</a></li>
                     </ul>
                 </div>
@@ -149,7 +155,7 @@
 
             <div>
                 <svg id="userDropDownMenuIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                     class="w-3 h-3 text-gray-600 hover:text-gray-900 cursor-pointer">
+                     class="h-3 w-3 cursor-pointer text-gray-600 hover:text-gray-900 dark:text-gray-50">
                     <path fill-rule="evenodd"
                           d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
                           clip-rule="evenodd"/>
@@ -161,11 +167,11 @@
 
     <!--       main        -->
     <main class="px-4">
-        <div class="max-w-7xl mx-auto py-4">
-            <span class="font-semibold text-2xl text-gray-600">Dashboard</span>
+        <div class="mx-auto max-w-7xl py-4">
+            <span class="text-2xl font-semibold text-gray-600 dark:text-gray-50">Dashboard</span>
         </div>
-        <div class="max-w-7xl mx-auto">
-            <div class="border-4 border-dashed border-gray-200 h-96 rounded"></div>
+        <div class="mx-auto max-w-7xl">
+            <div class="h-96 rounded border-4 border-dashed border-gray-200"></div>
         </div>
     </main>
     <!--       end main        -->
